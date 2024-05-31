@@ -1,0 +1,41 @@
+.skill-info-container{
+    
+    h6{
+        border: 1.5px solid #6751b9;
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 2.5rem;
+        border-radius: 0.6rem;
+        border-bottom-right-radius:0 ;
+        border-bottom-left-radius: 0;
+    }
+    .skill-info-content{
+        min-height: 20rem;
+        padding: 1rem;
+        border: 1.5px solid #6751b9;
+        border-radius: 0.6rem;
+        border-top: none;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+
+    }
+    p{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 768px) {
+    .skill-info-container{
+        h6{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}
+@media (max-width: 435px) {
+    .skill-info-container{
+        width: 16rem;
+    }
+
+}

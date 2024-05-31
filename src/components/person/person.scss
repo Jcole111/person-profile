@@ -1,0 +1,145 @@
+.tech-icon-person{
+    img{
+       width: 30rem;
+      
+    }
+}
+.tech-icon{
+ img{
+    width: 3rem;
+ }
+}
+.person-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+.tech-icons{
+    display: flex;
+    justify-content: space-around;
+    .tech-icon
+    {
+        width: 6rem;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.65rem;
+        border: 0.1rem solid #6852ba;
+        transition:all 0.3s ease;
+        img{
+            transition:all 0.2s ease;
+        }
+    }
+    .tech-icon :hover {
+        transform: translateY(-0.5rem);
+        
+    }
+    
+}
+.person-img-container{
+    .manlogo{
+        width: 33rem;
+        height: 33rem;
+        animation-name: floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        z-index: 1;
+    }
+    @keyframes floating {
+        0%{
+            transform: translate(0,  0px);
+        }
+        50%{
+           transform: translate(0, 20px);
+        }
+        100%{
+            transform: translate(0, -0px);
+        }
+    }
+}
+
+.person-content{
+    h2{
+        font-size: 3.8rem;
+        font-weight: 600;
+        line-height: 5rem;
+        margin-bottom: 1rem;
+    }
+    p{
+        width: 80%;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+    .tagline{
+ font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+    }
+}
+
+
+}
+.person-container::after,
+.person-container::before{
+    content:"";
+    width: 20rem;
+    height: 28rem;
+    border-radius: 28rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(13rem);
+}
+.person-container::after{
+    bottom: -3rem;
+    right: 3rem;
+}
+.person-container::before{
+   top: -3rem;
+    left: -3rem;
+}
+@media  (max-width:1024px) {
+    .person-container{
+
+   
+    .person-content{
+        h2{
+            font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 3rem;
+        margin-bottom: 1rem;
+        }
+        .tagline{
+            font-size: 16px;
+         }
+        p{
+             font-size: 1rem;
+        }
+    }
+
+    .person-img-container{
+       .manlogo{
+        width: 25rem;
+        height: anto;
+       }
+       .tech-icon{
+width: 5rem;
+height: 5rem;
+       }
+    }
+   
+}
+}
+@media (max-width:425px) {
+    
+    .person-container{
+        flex-direction: column;
+    }
+}

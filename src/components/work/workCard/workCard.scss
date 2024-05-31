@@ -1,0 +1,51 @@
+.work-card-container{
+background: #130f2a;
+border-radius: 0.65rem;
+border: 1.5px solid #6751b9;
+padding: 1rem;
+margin: 2rem;
+min-height: 26rem;
+
+h6{
+font-size: 1.05rem;
+font-weight: 500;
+margin-bottom: 0.7rem;
+}
+
+.work-date{
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 400;
+    background: rgba(183,81,185,0.5);
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.3rem;
+
+}
+}
+@media (max-width: 768px) {
+    .work-card-container{
+        h6{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 0.9rem;
+        }
+        .work-date{
+            font-size: 0.7rem;
+        }
+    }
+}
+@media (max-width: 425px) {
+    .work-card-container{
+        h6{
+            font-size: 0.9rem;
+        }
+        p{
+            font-size: 0.7rem;
+        }
+        .work-date{
+            font-size: 0.7rem;
+        }
+    }
+}

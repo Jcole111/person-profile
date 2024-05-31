@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// 字体设置
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+body {
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #060417 !important;
+    color: #fff !important;
+    font-family: 'Centra', sans-serif !important;
+    font-size: 18px;
+    .container{
+        max-width: 1300px;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 20px;
+
+        @media (max-width: 1300px) {
+            padding: 0 1.5rem;//当最大宽度小于1300的时候  有一个左右的内边距
+        }
+    }
+  }

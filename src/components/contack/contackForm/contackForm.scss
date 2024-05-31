@@ -1,0 +1,38 @@
+.contack-form-content{
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    input,
+    textarea{
+        padding: 1rem;
+        border-radius: 0.65rem;
+        border: 1.5px solid #6751b9;
+        background: #130f2a;
+        font-size: 0.8rem;
+        color: #fff;
+        
+    }
+    textarea{
+        min-height: 9rem;
+    }
+    button{
+        font-size: 1rem;
+        font-weight: 500;
+        color: #fff;
+        border: 1.5px solid #a892fe;
+        border-radius: 0.65rem;
+        background: linear-gradient(90deg,#a892fe 0%,#6751b9 100%);
+        padding: 0.7rem;
+        transition: all 0.3s ease;
+        cursor: pointer;
+
+    }
+    button:hover{
+        color:#a892fe;
+        background: transparent;
+    }
+}

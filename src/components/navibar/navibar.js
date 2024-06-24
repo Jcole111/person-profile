@@ -1,6 +1,6 @@
 import React from "react";
 import "./navibar.scss";
-import logo from "../../assets/img/logo1.jpg";
+import logo from "../../assets/img/LOGO.jpg";
 import { Nav } from "react-bootstrap";
 import { useState } from "react";
 import 'material-symbols'

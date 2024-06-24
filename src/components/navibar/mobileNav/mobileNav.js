@@ -1,7 +1,8 @@
 import React ,{useState}from 'react'
 import './mobileNav.scss'
 import { Nav } from "react-bootstrap";
-import logo from "../../../assets/img/logo1.jpg";
+import logo from "../../../assets/img/LOGO.jpg";
+
 
 export const MobileNav = ({isOpen,toggleMenu}) => {
     const [activeLink, setActiveLink] = useState("");

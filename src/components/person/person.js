@@ -18,6 +18,7 @@ export const Person = () => {
      <span className="tagline">Vue</span>
      <span className="tagline">华南农业大学</span>
      <span className="tagline">2025届</span>
+     <span className="tagline">两端实习经历</span>
      <p>我对于前端工作拥有热情，对于生活和进步充满热情，涉足的爱好广泛十足！欢迎你来了解我！</p>
         </div>
 

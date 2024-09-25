@@ -1,67 +1,62 @@
-.skills-card{
-    border-radius: 0.65rem;
-    border: 1.5px solid #675189;
-    padding: 1.5rem;
-    text-align: center;
-    background: rgba(22, 17, 47, 0.398);
-    backdrop-filter: blur(1rem);
-    position: relative;
-    cursor: pointer;
-    transition:all 0.3s ease;
-    display: block;
+.skills-card {
+  border-radius: 0.65rem;
+  border: 1.5px solid #675189;
+  padding: 1.5rem;
+  text-align: center;
+  background: rgba(22, 17, 47, 0.398);
+  backdrop-filter: blur(1rem);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
 
-    span{
-        font-size: 1.3rem;
-        font-weight: 700;
+  span {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .skill-icon {
+    position: absolute;
+    top: -1.2rem;
+    left: -1.2rem;
+    border: 1px solid #675189;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #2a2252;
+    backdrop-filter: blur(5rem);
+    img {
+      width: 2.5rem;
+      object-fit: contain;
     }
-    .skill-icon{
-        position: absolute;
-        top: -1.2rem;
-        left: -1.2rem;
-        border: 1px solid #675189;
-        padding: 0.5rem;
-        border-radius: 1rem;
-        background-color:#2a2252;
-        backdrop-filter: blur(5rem);
-        img{
-            width: 2.5rem;
-            object-fit: contain;
-        }
-    }
+  }
 }
 .skills-card:hover,
-.skill-card.active{
-background: linear-gradient(180deg,#aa94fe 0%,#7c5fe6 100%);
+.skill-card.active {
+  background: linear-gradient(180deg, #aa94fe 0%, #7c5fe6 100%);
 }
 @media (max-width: 768px) {
-    
-    .skills-card,
-    .skill-card.active{
-        padding: 1.2rem;
+  .skills-card,
+  .skill-card.active {
+    padding: 1.2rem;
 
-        span{
-font-size: 1rem;
-        }
-
-        .skill-icon{
-           
-            padding: 0.5rem;
-            border-radius: 1rem;
-            background-color:#2a2252;
-            backdrop-filter: blur(5rem);
-            img{
-                width: 1.5rem;
-                object-fit: contain;
-               
-                
-            }
-        }
+    span {
+      font-size: 1rem;
     }
+
+    .skill-icon {
+      padding: 0.5rem;
+      border-radius: 1rem;
+      background-color: #2a2252;
+      backdrop-filter: blur(5rem);
+      img {
+        width: 1.5rem;
+        object-fit: contain;
+      }
+    }
+  }
 }
 @media (max-width: 425px) {
-    .skills-card,
-    .skill-card.active{
-        width: 7rem;
-    }
-
+  .skills-card,
+  .skill-card.active {
+    width: 7rem;
+  }
 }
